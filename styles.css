@@ -1,0 +1,174 @@
+body {
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+h2 {
+  color: rgb(35, 158, 35);  
+}
+
+h3{
+  color: rgb(35, 158, 35);  
+}
+
+h4{
+  color: rgb(35, 158, 35);  
+}
+
+.container-text {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav .nav-item {
+  border: 2px solid black;
+  border-radius: 5px; /* Optional: Add rounded corners */
+  padding: 10px 15px;
+  margin: 0 5px; /* Optional: Adjust spacing between items */
+}
+
+.navbar-nav .nav-item.active {
+  border-color: black; /* For the active item, you can change the border color */
+  /* You can also change other styles like background color, text color, etc. */
+}
+
+/* Stijl voor de header */
+.header {
+  background-color: rgb(35, 158, 35);  
+}
+
+.navbar-nav .nav-link {
+  background-color: rgb(35, 158, 35);  
+  color: rgb(35, 158, 35);  
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 5px;
+}
+
+/* Stijl voor de hoofdtekstsectie */
+.section {
+  background-color: black;
+  color: white;
+  padding: 30px 0;
+}
+
+/* Stijl voor de footer */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 15px 0;
+}
+
+
+/* Additional styling can be added here if needed */
+.products {
+    background-color: black;
+    color:rgb(35, 158, 35);  
+    padding: 40px 0;
+  }
+  
+  .product {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    max-width: 100%;
+  }
+  
+  .form-control {
+    height: 40px; /* Pas de hoogte aan zoals gewenst */
+  }
+  
+  .contact {
+    background-color: black;
+    color: rgb(35, 158, 35);  
+    padding: 40px 0;
+  }
+  
+  .contact form {
+    margin-top: 20px;
+  }
+  
+  .footer {
+    background-color: rgb(35, 158, 35);  
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .product-section {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+   .accordion-body {
+    border: 1px solid rgb(46, 198, 46);
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .accordion-item {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden; /* Voorkomt dat de inhoud buiten de afgeronde randen komt */
+  }
+  
+  .accordion-button {
+    background-color: rgb(35, 158, 35);  
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .accordion-button:hover {
+    background-color: rgb(35, 158, 35);  
+  }
+  
+  .accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.5);
+  }
+  
+  .accordion-body {
+    border: 1px solid rgb(35, 158, 35);  
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .accordion-button {
+    background-color: rgb(35, 158, 35);  
+    color: black;
+    padding-right: 20px; /* Add space for the arrow icon */
+  }
+  
+  .accordion-button::after {
+    content: '\25B6'; /* Right-pointing arrow icon */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: black;
+  }
+  
+    .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    margin-bottom: 20px;
+  }
+  
+  .message-box {
+    width: 100%;
+    height: 150px;
+  }
